@@ -141,7 +141,7 @@ def f(t0, u_, k):
 def attitude_propagator(yaw0,pitch0,roll0, yaw_rate0, pitch_rate0, roll_rate0, time_span):
     
     II1=4500
-    II2=4500.3#kg*m^2, VALORI DA AGGIUSTARE
+    II2=4500#kg*m^2, VALORI DA AGGIUSTARE
     II3=4500
 
     y0 = np.empty(6)
